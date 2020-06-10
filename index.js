@@ -1,5 +1,5 @@
 //CONFIG
-var token = "NzIwMjM4NDk5MTk4MTQwa###NDU3.XuEs1g.aBGxVoPG1WqPZrlfhEGxLS-oM_4";
+var token = "YOUR TOKEN HERE";
 var totaltext = "Total Users : ";
 var humantext = "Human Users : ";
 var bottext = "Bot Users : ";
