@@ -1,0 +1,22 @@
+{
+  "name": "ServerStats",
+  "version": "1.0.3",
+  "description": "Server Statistics Bot",
+  "main": "app.js",
+  "keywords": [
+    "Statistics",
+    "Discord Bot",
+    "Server Statistics"
+  ],
+  "author": "devilAPI#7980",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "11.6.0",
+    "util": "^0.12.3",
+    "moment": "^2.26.0",
+    "quick.db": "7.1.1"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}
