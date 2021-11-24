@@ -1,6 +1,6 @@
 # DevilServerStats 👤
 
-![DevilServerStats](https://user-images.githubusercontent.com/52862870/143320050-4e6692cc-5f26-41a1-9eac-8de801c2af5f.png)
+<center>![DevilServerStats](https://user-images.githubusercontent.com/52862870/143320050-4e6692cc-5f26-41a1-9eac-8de801c2af5f.png)</center>
 
 [![Discord Bots](https://top.gg/api/widget/913155497220272188.svg)](https://top.gg/bot/913155497220272188)
 
