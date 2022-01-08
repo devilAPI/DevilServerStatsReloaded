@@ -30,7 +30,7 @@ client.on('guildMemberAdd', async member => {
     member.guild.channels.cache.get(membs).setName(process.env.LANGUAGE_HUMAN_USERS + member.guild.members.cache.filter(member => !member.user.bot).size);
     member.guild.channels.cache.get(bots).setName(process.env.LANGUAGE_BOT_USERS + member.guild.members.cache.filter(member => member.user.bot).size);
   }
-  if (DEBUG_LOG == true) { console.log("Member Added") }
+  if (process.env.DEBUG_LOG == true) { console.log("Member Added") }
 });
 
 client.on('guildMemberRemove', async member => {
@@ -46,7 +46,7 @@ client.on('guildMemberRemove', async member => {
     member.guild.channels.cache.get(membs).setName(process.env.LANGUAGE_HUMAN_USERS + member.guild.members.cache.filter(member => !member.user.bot).size);
     member.guild.channels.cache.get(bots).setName(process.env.LANGUAGE_BOT_USERS + member.guild.members.cache.filter(member => member.user.bot).size);
   }
-  if (DEBUG_LOG == true) { console.log("Member Removed") }
+  if (process.env.DEBUG_LOG == true) { console.log("Member Removed") }
 });
 
 
